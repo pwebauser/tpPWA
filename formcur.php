@@ -13,7 +13,7 @@
         </div>
         <div class="col-4">
         Alta de cursada
-            <form action="BLL/altacur.php" method="POST">
+            <form action="altacur.php" method="POST">
                 Nombre de la materia:
                 <input type="text" name="materia" value=""> </input></br>
                 Nombre de la carrera:
