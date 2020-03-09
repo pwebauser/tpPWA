@@ -11,10 +11,15 @@
         <div class="col-4">
         </div>
         <div class="col-4">
-            <form>
-                <a href="formcur.php">Agregar nueva Cursada</a></br>
-                <a href="formaula.php">Agregar nueva Aula</a></br>
-                <a href="listaraulas.php">Listar todas las aulas</a></br>
+        Alta de aula
+            <form action="altaaula.php" method="POST">
+                Numero:
+                <input type="text" name="numero" value=""> </input></br>
+                Cantidad de Alumnos:
+                <input type="text" name="cantalumnos" value=""> </input></br>
+                Piso:
+                <input type="text" name="piso" value=""> </input></br>
+                <input type="submit" value="Alta"></input>
             </form>
         </div>
     </div>
