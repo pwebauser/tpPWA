@@ -27,5 +27,4 @@ if ($res==1){
                 window.location.href = \"index.php\";
           </script>";
 }
-echo "me fui";
 ?>

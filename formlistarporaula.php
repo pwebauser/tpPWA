@@ -11,14 +11,11 @@
         <div class="col-4">
         </div>
         <div class="col-4">
-            <form>
-                <a href="formcur.php">Agregar nueva Cursada</a></br>
-                <a href="formaula.php">Agregar nueva Aula</a></br>
-                <a href="listaraulas.php">Listar todas las aulas</a></br>
-                <a href="listarcur.php">Listar todas las cursadas</a><br>
-                <a href="listarcursinaula.php">Listar las cursadas sin aula</a><br>
-                <a href="formlistarporcom.php">Listar por comision</a><br>
-                <a href="formlistarporaula.php">Listar por Aula</a><br>
+        Alta de aula
+            <form action="listarporaula.php" method="POST">
+                Aula:
+                <input type="text" name="aula" value=""> </input></br>
+                <input type="submit" value="Listar"></input>
             </form>
         </div>
     </div>

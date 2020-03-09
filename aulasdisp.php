@@ -2,7 +2,6 @@
     include_once "BLL/adminaula.php";
     include_once "BLL/admincur.php";
     try {
-        return("Esto Apesta");
         $turno = $_POST["turno"];
         $dia = $_POST["dia"];
         $aulaslibres = new arrayobject();

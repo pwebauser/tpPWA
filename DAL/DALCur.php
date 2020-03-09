@@ -8,7 +8,7 @@
                 $res = $dbman->Read("AdminUni", "Cursadas", null);
                 $Cursadas = new ArrayObject();
                 foreach ($res as $i) {
-                    $c = new Cursada($i["materia"], $i["carrera"], $i["cantalumnos"], $i["turno"], $i["dia"], $i["comision"], $i["aula"]);
+                    $c = new Cursada($i["Materia"], $i["Carrera"], $i["CantAlumnos"], $i["Turno"], $i["Dia"], $i["Comision"], $i["Aula"]);
                     $Cursadas->append($c);
                     $c=null;
                 }
@@ -42,8 +42,8 @@
                 $res = $dbman->Read("AdminUni", "Cursadas", $query);
                 $Cursadas = new ArrayObject();
                 foreach ($res as $i) {
-                    $c = new Cursada($i["materia"], $i["carrera"], $i["cantalumnos"], $i["turno"], $i["dia"], $i["comision"], $i["aula"]);
-                    $aulas->append($c);
+                    $c = new Cursada($i["Materia"], $i["Carrera"], $i["CantAlumnos"], $i["Turno"], $i["Dia"], $i["Comision"], $i["Aula"]);
+                    $Cursadas->append($c);
                     $c=null;
                 }
                 return($Cursadas);
